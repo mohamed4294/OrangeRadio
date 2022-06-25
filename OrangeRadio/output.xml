@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.0 on win32)" generated="20220625 20:40:15.648" rpa="false">
+<suite id="s1" name="OrangeRadio" source="C:\Users\SHGX8876\eclipse-workspace\OrangeRadio">
+<suite id="s1-s1" name="Test" source="C:\Users\SHGX8876\eclipse-workspace\OrangeRadio\Test">
+<suite id="s1-s1-s1" name="Test" source="C:\Users\SHGX8876\eclipse-workspace\OrangeRadio\Test\Test.robot">
+<kw name="Open the application" library="Common" type="setup">
+<kw name="Open Application" library="AppiumLibrary">
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<arguments>
+<arg>${APPIUM_SERVER}</arg>
+<arg>platformName=${platformName}</arg>
+<arg>platformVersion=${platformVersion}</arg>
+<arg>deviceName=${deviceName}</arg>
+<arg>udid=${deviceUdid}</arg>
+<arg>appPackage=${appPackage}</arg>
+<arg>appActivity=${appActivity}</arg>
+<arg>automationName=UiAutomator2</arg>
+</arguments>
+<status status="PASS" starttime="20220625 20:40:16.232" endtime="20220625 20:40:24.676"></status>
+</kw>
+<status status="PASS" starttime="20220625 20:40:16.231" endtime="20220625 20:40:24.677"></status>
+</kw>
+<test id="s1-s1-s1-t1" name="Validate that the start listening bottom working correctly">
+<kw name="Click Element" library="AppiumLibrary">
+<doc>Click element identified by `locator`.</doc>
+<arguments>
+<arg>${StartBtnLocator}</arg>
+</arguments>
+<msg timestamp="20220625 20:40:24.684" level="INFO">Clicking element 'com.orange.radio.horizon:id/start_listen_btn'.</msg>
+<status status="PASS" starttime="20220625 20:40:24.680" endtime="20220625 20:40:25.710"></status>
+</kw>
+<kw name="Assertion for start listening" library="WelcomeToRadio">
+<kw name="Get Text" library="AppiumLibrary">
+<doc>Get element text (for hybrid and mobile browser use `xpath` locator, others might cause problem)</doc>
+<arguments>
+<arg>${ChooseCountryLocator}</arg>
+</arguments>
+<assign>
+<var>${Actual}</var>
+</assign>
+<msg timestamp="20220625 20:40:27.103" level="INFO">Element 'com.orange.radio.horizon:id/chooseCountryTitle' text is 'Choose a country' </msg>
+<msg timestamp="20220625 20:40:27.104" level="INFO">${Actual} = Choose a country</msg>
+<status status="PASS" starttime="20220625 20:40:25.713" endtime="20220625 20:40:27.104"></status>
+</kw>
+<kw name="Set Variable" library="BuiltIn">
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<arguments>
+<arg>${ChooseCountry}</arg>
+</arguments>
+<assign>
+<var>${Expected}</var>
+</assign>
+<msg timestamp="20220625 20:40:27.106" level="INFO">${Expected} = Choose a country</msg>
+<status status="PASS" starttime="20220625 20:40:27.105" endtime="20220625 20:40:27.106"></status>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<arguments>
+<arg>${Actual}</arg>
+<arg>${Expected}</arg>
+</arguments>
+<status status="PASS" starttime="20220625 20:40:27.107" endtime="20220625 20:40:27.108"></status>
+</kw>
+<status status="PASS" starttime="20220625 20:40:25.713" endtime="20220625 20:40:27.109"></status>
+</kw>
+<status status="PASS" starttime="20220625 20:40:24.678" endtime="20220625 20:40:27.109" critical="yes"></status>
+</test>
+<kw name="Close the application" library="Common" type="teardown">
+<kw name="Close Application" library="AppiumLibrary">
+<doc>Closes the current application and also close webdriver session.</doc>
+<status status="PASS" starttime="20220625 20:40:27.112" endtime="20220625 20:40:27.781"></status>
+</kw>
+<status status="PASS" starttime="20220625 20:40:27.112" endtime="20220625 20:40:27.781"></status>
+</kw>
+<status status="PASS" starttime="20220625 20:40:15.788" endtime="20220625 20:40:27.782"></status>
+</suite>
+<status status="PASS" starttime="20220625 20:40:15.781" endtime="20220625 20:40:27.784"></status>
+</suite>
+<status status="PASS" starttime="20220625 20:40:15.742" endtime="20220625 20:40:27.787"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="OrangeRadio">OrangeRadio</stat>
+<stat pass="1" fail="0" id="s1-s1" name="Test">OrangeRadio.Test</stat>
+<stat pass="1" fail="0" id="s1-s1-s1" name="Test">OrangeRadio.Test.Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
