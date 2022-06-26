@@ -1,0 +1,37 @@
+#Welcome Page
+SlideHeadingWelcomeLocator:   com.orange.radio.horizon:id/Slide_heading
+SlideDescripWelcomeLocator:   com.orange.radio.horizon:id/slide_decrip
+StartBtnWelcomeLocator:       com.orange.radio.horizon:id/start_listen_btn
+NextBtnWelcomeLocator:        com.orange.radio.horizon:id/btn_next
+ChooseCountryWelcomeLocator:  com.orange.radio.horizon:id/chooseCountryTitle
+
+#Free With no Ads Page
+FreeSlideHeadingLocator:      com.orange.radio.horizon:id/Slide_heading
+FreeSlideDescripLocator:      com.orange.radio.horizon:id/slide_decrip
+FreeStartBtnLocator:          com.orange.radio.horizon:id/start_listen_btn
+FreenextBtnLocator:           com.orange.radio.horizon:id/btn_next
+
+#Bottom Navigation Page
+BottomSlideHeadingLocator:    com.orange.radio.horizon:id/Slide_heading
+BottomSlideDescripLocator:    com.orange.radio.horizon:id/slide_decrip
+BottomStartBtnLocator:        com.orange.radio.horizon:id/start_listen_btn
+BottomnextBtnLocator:         com.orange.radio.horizon:id/btn_next
+
+#Sleep Timer Page
+SleepSlideHeadingLocator:     com.orange.radio.horizon:id/Slide_heading
+SleepSlideDescripLocator:     com.orange.radio.horizon:id/slide_decrip 
+SleepStartBtnLocator:         com.orange.radio.horizon:id/start_listen_btn
+SleepnextBtnLocator:          com.orange.radio.horizon:id/btn_next
+
+#Favourites Page
+FavSlideHeadingLocator:       com.orange.radio.horizon:id/Slide_heading
+FavSlideDescripLocator:       com.orange.radio.horizon:id/slide_decrip 
+FavStartBtnLocator:           com.orange.radio.horizon:id/start_listen_btn
+FavnextBtnLocator:            com.orange.radio.horizon:id/btn_next
+
+#Subscription Page
+SubSlideHeadingLocator:       com.orange.radio.horizon:id/Slide_heading
+SubSlideDescripLocator:       com.orange.radio.horizon:id/slide_decrip 
+SubStartBtnLocator:           com.orange.radio.horizon:id/start_listen_btn
+SubfinishBtnLocator:          com.orange.radio.horizon:id/btn_next
+

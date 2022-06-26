@@ -1,0 +1,38 @@
+#Welocme Page
+SlideHeadingWelcome:  Welcome to Orange Radio
+SlideDescripWelcome:  Discover more than 33,000 radios and 6,000 podcasts from countries all over the world.
+StartBtnWelcome:      START LISTENING
+NextBtnWelcome:       NEXT
+ChooseCountryWelcome: Choose a country
+
+#Free Page
+FreeSlideHeading:     Free with no advertising
+FreeSlideDescrip:     To provide the best possible experience the application is totally free to use.
+FreeStartBtn:         START LISTENING
+FreeNextBtn:          NEXT
+
+#Bottom Navigation Page
+BottomSlideHeading:   Bottom navigation
+BottomSlideDescrip:   Key functionality is now immediately available from the bottom navigation. Includes browsing, favourite radios and podcast subscriptions.
+BottomStartBtn:       START LISTENING
+BottomNextBtn:        NEXT
+
+#Sleep Timer Page
+SleepSlideHeading:    Sleep timer
+SleepSlideDescrip:    Set how long you want the radio or podcast to continue playing for and fall asleep while listening.
+SleepStartBtn:        START LISTENING
+SleepNextBtn:         NEXT
+
+#Favourites Page
+FavSlideHeading:      Favourites
+FavSlideDescrip:      Easily access your favourite radios by adding them to your favourites.
+FavStartBtn:          START LISTENING
+FavNextBtn:           NEXT
+
+# Subscription Page 
+SubSlideHeading:      Subscriptions
+SubSlideDescrip:      Subscribing to podcasts makes them easy to access and simple to listen to when new episodes are available.
+SubStartBtn:          START LISTENING
+SubfinishBtn:         FINISH
+
+
